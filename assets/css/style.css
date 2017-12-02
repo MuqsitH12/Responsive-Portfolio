@@ -225,39 +225,39 @@ input[type=submit]:hover {
 	body, html {
 		overflow-x: hidden;
 		background-image: none;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 
 	header{
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	.wrapper{
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	#Main-Bio{
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 		float: none;
 		margin: 0px;
 	}
 	.Contact-Info{
 		width: 100%;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 		margin: 0px;
 	}
 
 	.container {
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	.name {
 		width: 100%;
 		padding-top: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 
 	}
 
@@ -269,7 +269,7 @@ input[type=submit]:hover {
 	#container2{
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 		float: none;
 		margin: 0px;
 		margin: 10%;
@@ -309,44 +309,43 @@ input[type=submit]:hover {
 	body, html{
 		overflow-x: hidden;
 		background-image: none;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	nav{
 		position: relative;
 		right: 20%;
-		
+
 	}
 
 	header{
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	.wrapper{
-		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	#Main-Bio{
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 		float: none;
 		margin: 0px;
 	}
 	.Contact-Info{
 		width: 100%;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 		margin: 0px;
 	}
 
 	.container {
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 	}
 	.name {
 		width: 100%;
 		padding-top: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 
 	}
 
@@ -358,7 +357,7 @@ input[type=submit]:hover {
 	#container2{
 		width: 100%;
 		padding: 20px;
-		background-color: #518ea5;
+		/*background-color: #518ea5;*/
 		float: none;
 		margin: 0px;
 		margin: 10%;
@@ -403,7 +402,6 @@ input[type=submit]:hover {
 		background-color: #518ea5;
 	}
 	.wrapper{
-		width: 100%;
 		padding: 20px;
 		background-color: #518ea5;
 	}
