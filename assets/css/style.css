@@ -1,0 +1,488 @@
+head{
+	background-color: #4aaaa5;
+	margin:0;
+	padding:0;
+	color:#777777;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+	background:#55d6aa;
+}
+
+nav{
+	float: right;
+}
+
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+	margin-left: 100px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a{
+	content:'';
+	display:block;
+	position: relative;
+	width: 100%;
+	color: #444;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 14px;
+	top: 0;
+}
+
+nav a: hover{
+	color:#000;
+}
+
+nav a::before{
+	content:'';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+
+}
+
+body{
+	border-color: #dddddd;
+	line-height: 150%;
+	font-family: "Georgia","Times New Roman","Times","Serif";
+	font-size: 18px;
+	/*line-height: 150%;*/
+}
+
+h1{
+	color:#ffffff;
+	background-color:#4aaaa5;
+	border-color: #cccccc;
+	margin:0;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2{
+	background-color:#ffffff;
+	color:#4aaaa5;
+	border-color: #dddddd;
+	margin-left: 70px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#Main-Bio{
+	float: left;
+	margin-left: 100px;
+
+}
+
+#bio-image{
+	margin-left: 50px;
+}
+	
+
+#Main-Bio{
+	max-width: 650px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: #ffffff;
+}
+
+.Contact-Info{
+	max-width: 270px;
+	background-color: rgba(255,255,255,0.5);
+	border-color: #ffffff;
+}
+
+.Contact-Info{
+	float: left;
+	margin-left: 200px;
+	position: relative;
+	
+}
+
+.Contact-Info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.Contact-Info li{
+	display:inline-block;
+	margin-left: 10px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.Contact-Info img { 
+	width: 50px;
+	height: 50px;
+
+}
+
+#bio-image{
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+input[type=text], select, textarea {
+	width:100%; 
+	padding:12px; 
+	border:1px solid #ccc;
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px;
+	margin-top: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor:pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.container1 {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 50%;
+	content: '';
+	display: table;
+	clear: both;
+	float: left;
+}
+
+#container2{
+	float: left;
+	margin-left: 100px;
+
+}
+
+#tablet-pic{
+	margin-left: 50px;
+}
+
+#beats-pic{
+	margin-left: 50px;
+}
+
+#soccer-pic{
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#barber-pic{
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#container2{
+	max-width: 650px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: #ffffff;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 0 auto;
+	padding-top: 50px;
+	position: relative;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
+	background-color: #ffffff
+}
+
+/*media queriy*/
+
+@media screen and(max-width: 960px){
+	body, html {
+		overflow-x: hidden;
+		background-image: none;
+		background-color: #518ea5;
+	}
+
+	header{
+		background-color: #518ea5;
+	}
+	.wrapper{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+	}
+	#Main-Bio{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+		float: none;
+		margin: 0px;
+	}
+	.Contact-Info{
+		width: 100%;
+		background-color: #518ea5;
+		margin: 0px;
+	}
+
+	.container {
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+	}
+	.name {
+		width: 100%;
+		padding-top: 20px;
+		background-color: #518ea5;
+
+	}
+
+	#bio-image{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#container2{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+		float: none;
+		margin: 0px;
+		margin: 10%;
+	}
+	#tablet-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#soccer-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#beats-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#tablet-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#barber-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	body, html{
+		overflow-x: hidden;
+		background-image: none;
+		background-color: #518ea5;
+	}
+	nav{
+		position: relative;
+		right: 20%;
+		
+	}
+
+	header{
+		background-color: #518ea5;
+	}
+	.wrapper{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+	}
+	#Main-Bio{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+		float: none;
+		margin: 0px;
+	}
+	.Contact-Info{
+		width: 100%;
+		background-color: #518ea5;
+		margin: 0px;
+	}
+
+	.container {
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+	}
+	.name {
+		width: 100%;
+		padding-top: 20px;
+		background-color: #518ea5;
+
+	}
+
+	#bio-image{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#container2{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+		float: none;
+		margin: 0px;
+		margin: 10%;
+	}
+	#tablet-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#soccer-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#beats-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#tablet-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#barber-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	
+}
+
+@media screen and(max-width: 640px){
+	body, html {
+		overflow-x: hidden;
+		background-image: none;
+		background-color: #518ea5;
+	}
+
+	header{
+		background-color: #518ea5;
+	}
+	.wrapper{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+	}
+	#Main-Bio{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+		float: none;
+		margin: 0px;
+	}
+	.Contact-Info{
+		width: 100%;
+		background-color: #518ea5;
+		margin: 0px;
+	}
+
+	.container {
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+	}
+	.name {
+		width: 100%;
+		padding-top: 20px;
+		background-color: #518ea5;
+
+	}
+
+	#bio-image{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#container2{
+		width: 100%;
+		padding: 20px;
+		background-color: #518ea5;
+		float: none;
+		margin: 0px;
+		margin: 10%;
+	}
+	#tablet-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#soccer-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#beats-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#tablet-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+	#barber-pic{
+		margin: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
