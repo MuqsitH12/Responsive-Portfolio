@@ -246,7 +246,7 @@ input[type=submit]:hover {
 	.Contact-Info{
 		width: 100%;
 		/*background-color: #518ea5;*/
-		margin: 0px;
+		/*margin: 0px;*/
 	}
 
 	.container {
@@ -415,7 +415,7 @@ input[type=submit]:hover {
 	.Contact-Info{
 		width: 100%;
 		background-color: #518ea5;
-		margin: 0px;
+		/*margin: 0px;*/
 	}
 
 	.container {
